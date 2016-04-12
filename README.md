@@ -1,9 +1,10 @@
 # Angular.js factory using Google OAuth 2.0
+Very simple Angular.js factory using Google OAuth 2.0 API.
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
-
-# How to use
-Replace client ID and API key in googleAuth factory.
-Check the example in controller and view. Don't forget to import the client.js script from Google in your index.html:
-`<script src="https://apis.google.com/js/client.js"></script>`
+## How to use
+1. Follow [yo angular generator](https://github.com/yeoman/generator-angular) installation.
+2. Replace client ID and API key in [googleAuth factory](https://github.com/nowis-st/angular-factory-google-oauth/blob/master/app/scripts/services/googleauth.js).
+3. Run `npm install`.
+4. Run `bower install`.
+5. Run `grunt serve` to start the app.
+6. Visit [http://localhost:9000](http://localhost:9000) to test the Google OAuth.
