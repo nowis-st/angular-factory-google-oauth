@@ -121,10 +121,10 @@ angular.module('angularApp')
           request.then(function(resp) {
             console.log("API response:",resp);            
 
-            googleFuntions.googleId = resp.result.id;
+            googleFuntions.googleId   = resp.result.id;
             googleFuntions.familyName = resp.result.name.familyName;
-            googleFuntions.givenName = resp.result.name.givenName;
-            googleFuntions.avatar   = resp.result.image.url;
+            googleFuntions.givenName  = resp.result.name.givenName;
+            googleFuntions.avatar     = resp.result.image.url;
 
             window.dispatchEvent(googlePlusEvent);
           }, function(reason) {
