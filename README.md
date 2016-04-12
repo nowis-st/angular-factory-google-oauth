@@ -6,4 +6,4 @@ version 0.15.1.
 # How to use
 Replace client ID and API key in googleAuth factory.
 Check the example in controller and view. Don't forget to import the client.js script from Google in your index.html:
-<script src="https://apis.google.com/js/client.js"></script>
+`<script src="https://apis.google.com/js/client.js"></script>`
