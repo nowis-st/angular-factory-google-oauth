@@ -1,2 +1,4 @@
 # angular-factory-google-oauth
-Angular.js factory using Google OAuth 2.0 API
+Angular.js factory using Google OAuth 2.0 API.
+
+Using Google+ and Gmail APIs.
