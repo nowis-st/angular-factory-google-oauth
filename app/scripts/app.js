@@ -22,7 +22,7 @@ angular
       .when('/', {
         templateUrl: 'main.html',
         controller: 'MainCtrl',
-        controllerAs: 'main'
+        controllerAs: 'views/main'
       })
       .otherwise({
         redirectTo: '/'
